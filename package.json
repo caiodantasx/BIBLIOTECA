@@ -1,0 +1,16 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "api",
+    "frontend"
+  ],
+  "scripts": {
+    "postinstall": "npm run build -w shared && npm run generate -w api",
+    "dev:api": "npm run dev -w api",
+    "dev:frontend": "npm run dev -w frontend",
+    "build": "npm run build -w api && npm run build -w frontend"
+  }
+}
