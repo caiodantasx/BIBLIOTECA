@@ -4,17 +4,14 @@
 
 Sistema web completo de uma biblioteca: autores, livros, leitores e empréstimos, com cadastro e login de usuário.
 
-## Integrantes
 
-Projeto feito individualmente.
 
-| Nome completo | RGM | O que fez |
-|---|---|---|
+
 | Caio Dantas da Silveira | 33361436 | Todo o projeto: banco (schema.prisma, migrations, seed), API (rotas, controllers, services, repositories, Swagger), schemas Zod no shared, login/cadastro com bcrypt e frontend (telas, modais, selects, busca) |
 
-## Tema e tabelas
 
-**Tema:** Biblioteca
+
+ Biblioteca
 
 | Tabela | Campos principais | Ligações |
 |---|---|---|
@@ -75,7 +72,7 @@ npm run build -w api
 npm run build -w frontend
 ```
 
-## Usuário para entrar no sistema (criado pelo seed)
+## Usuário para entrar no sistema 
 
 - **E-mail:** `professor@biblioteca.com`
 - **Senha:** `123456`
