@@ -1,6 +1,6 @@
 # 📚 Biblioteca — Projeto final de Desenvolvimento Web
 
-**Vídeo:** COLOCAR_AQUI_O_LINK_DO_VIDEO
+**Vídeo:** https://youtube.com/shorts/5cOs2PcX44g?feature=share
 
 Sistema web completo de uma biblioteca: autores, livros, leitores e empréstimos, com cadastro e login de usuário.
 
