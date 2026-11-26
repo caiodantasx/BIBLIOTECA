@@ -36,9 +36,8 @@ Precisa ter instalado: **Node.js 20 ou mais novo**, **npm** e **Docker** (com Do
 
 ```bash
 # 1. Clonar e entrar na pasta
-git clone https://github.com/USUARIO/REPOSITORIO.git
-cd REPOSITORIO
-
+git clone https://github.com/caiodantasx/BIBLIOTECA.git
+cd BIBLIOTECA
 # 2. Subir o banco PostgreSQL
 docker compose up -d
 
